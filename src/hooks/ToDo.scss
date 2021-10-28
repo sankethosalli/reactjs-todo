@@ -1,0 +1,12 @@
+.todo__element {
+  margin-top: 4px;
+  margin-bottom: 6px;
+  //   display: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo__buttons {
+  //   float: right;
+}
