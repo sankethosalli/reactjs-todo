@@ -55,7 +55,15 @@ const ToDos = () => {
   console.log("ToDos");
   return (
     <div className="form-inline todos__wrapper">
-      <h4>ToDo Application</h4>
+      <h4>
+        <img
+          style={{ height: "34px" }}
+          className="img img-fluid"
+          src="/logo.png"
+          draggable="false"
+        />
+        &nbsp; ToDo Application
+      </h4>
       <form onSubmit={handleSubmit}>
         <div class="form-group mb-2">
           <input
